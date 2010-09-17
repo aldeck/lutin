@@ -1,0 +1,14 @@
+SubDir HAIKU_TOP src apps lutin ;
+
+UsePrivateHeaders shared ;
+
+Application Lutin :
+	App.cpp
+	MainWindow.cpp
+	MathUtils.cpp
+	RenderView.cpp
+	Sprite.cpp
+
+	: be game media translation $(TARGET_LIBSUPC++)
+	: Lutin.rdef
+;
