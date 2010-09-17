@@ -1,5 +1,5 @@
 /*
- * Copyright 2009, Haiku Inc. All rights reserved.
+ * Copyright 2010, Alexandre Deckner. All rights reserved.
  * Distributed under the terms of the MIT License.
  *
  * Authors:
