@@ -95,7 +95,6 @@ RenderView::_RenderLoop()
 	while (_Render()) {
 		snooze(100);
 	}
-	printf("end render loop\n");
 	return B_OK;
 }
 
